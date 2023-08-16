@@ -1,0 +1,55 @@
+.headercard{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.material-symbols-outlined{
+    margin-left: 40px;
+ transform: translateY(5px);
+}
+.albumcard{
+    text-align: center;
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+}
+.btnblue{
+    background-color: rgb(85, 85, 254);
+}
+.btngrey{
+    background-color: grey;
+}
+.albumcard-example {
+    font-size: 25px;
+  
+}
+img{
+    width: 200px;
+    height: 120px; 
+}
+table td{
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 12px;
+}
+table {
+    border-spacing: 0;
+}
+.apartcard p{
+font-size: 12px;
+width:200px ;
+padding: 10px;
+
+}
+.td-time{
+    border: none;
+    display: block;
+    margin-left: 85px;
+}
+.maincard{
+    display: flex;
+  justify-content: center;
+}

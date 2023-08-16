@@ -1,0 +1,41 @@
+.header{
+    background-color: red;
+    grid-area: header;
+}
+.aside{
+    background-color: blue;
+    grid-area: aside;
+}
+.section{
+    background-color: violet;
+    grid-area: section;
+}
+.article{
+    background-color: yellow;
+    grid-area: article;
+}
+.footer{
+    background-color: aqua;
+    grid-area: footer;
+}
+.card{
+    background-color: black;
+    grid-area: card;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "section aside"
+    "section article"
+    "section card "
+    "footer card";
+ grid-template-rows: 100px 100px 100px 100px 100px;    
+ grid-template-columns: 500px 500px;
+}
+img{
+    width:100%;
+    height: 100%;
+  
+}

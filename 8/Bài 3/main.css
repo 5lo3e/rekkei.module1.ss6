@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+}
+main{
+    display: grid;
+    grid-template-areas:
+    "one two"
+    "three four"
+    "five six";
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: center;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    
+}
+.section {
+    background-color: rgb(246, 241, 241);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+    min-height: 150px;
+}
+button{
+    background-color: black;
+    padding: 2px 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+main, h1{
+    background-color: rgb(230, 222, 222);
+    padding: 10px;
+}
+main{
+    padding-bottom: 30px;
+}
+.one {
+    grid-area: one;
+   object-fit: cover;
+}
+.two{
+    grid-area: two;
+    object-fit: cover;
+}
+.three{
+    grid-area: three;
+}
+.four{
+    grid-area: four;
+    object-fit: cover;
+}
+.five{
+    grid-area: five;
+    object-fit:contain;
+}
+.six{
+    grid-area: six;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+    grid-template-areas:    
+    "one"
+    "two"
+    "three" 
+    "four"
+    "five"
+    "six";
+ grid-template-columns: minmax(150px,250px);
+
+
+}
+}
